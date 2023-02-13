@@ -1,0 +1,25 @@
+$light-blue: rgb(224,243,250);
+
+main {
+    background-color: $light-blue;
+}
+
+h1 {
+    color: rgb(22,73,175);
+}
+
+
+footer {
+    color: #fff;
+    a { color: #fff; }
+
+    .nav-link { color: #fff; }
+    .next-muted {color: #fff; }
+}
+.bg-navy {
+    background-color: rgb(0,28,56);
+}
+
+.bg-navy-light {
+    background-color: rgb(28,54,101);
+}

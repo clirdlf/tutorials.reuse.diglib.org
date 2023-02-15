@@ -1,2 +1,2 @@
-name,icon,path
-Reverse Image Search,,/tutorials/reverse-image-search/
+name,icon,path,description
+Reverse Image Search,bi-image,/tutorials/reverse-image-search/,short description about Reverse Image Search tutorial

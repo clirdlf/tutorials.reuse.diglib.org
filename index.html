@@ -1,0 +1,19 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+title: Tutorials
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at felis quis metus euismod consectetur. Integer tellus nunc, consequat et venenatis non, egestas a est. Nulla aliquet libero ac arcu malesuada, a congue mi ultrices. Cras at orci leo. Nunc eu sapien ut purus mattis aliquam.
+---
+
+{% for tutorial in site.data.tutorials %}
+    <div class="card text-center" style="width: 18rem;">
+        <i class="bi {{ tutorial.icon }} fs-1 mt-2"></i>
+        <div class="card-body">
+            <h3 class="card-title fs-4">{{ tutorial.name }}</h3>
+            <p class="card-text text-muted">{{ tutorial.description }}</p>
+            <a href="{{ tutorial.path | relative_url }}" class="btn btn-primary">Start</a>
+        </div>
+    </div>
+{% endfor %}

@@ -1,7 +1,24 @@
 $light-blue: rgb(224,243,250);
+$navy: rgb(0,28,56);
+$light-navy: rgb(28,54,101);
 
-main {
+header {
+    height: 5rem;
+    img {
+        height: 62px;
+    }
+}
+
+// main {
+//     
+// }
+
+.heading {
     background-color: $light-blue;
+}
+
+.card {
+    color: rgb(22,73,175); 
 }
 
 h1 {
@@ -11,15 +28,30 @@ h1 {
 
 footer {
     color: #fff;
-    a { color: #fff; }
+    a { 
+        color: #fff; 
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 
     .nav-link { color: #fff; }
     .next-muted {color: #fff; }
+
+    li {
+        padding-top: 0.8rem;
+    }
 }
 .bg-navy {
-    background-color: rgb(0,28,56);
+    background-color: $navy;
 }
 
 .bg-navy-light {
-    background-color: rgb(28,54,101);
+    background-color: $light-navy;
+    border-top: 1px solid lighten($navy, 70%);
+}
+
+.copyright {
+    font-size: 14px;
 }

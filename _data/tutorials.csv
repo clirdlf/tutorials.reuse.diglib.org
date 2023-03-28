@@ -1,6 +1,8 @@
 name,icon,path,color,description
-Reverse Image Search,bi-image,/tutorials/reverse-image-search/,#1E6933,short description about Reverse Image Search tutorial
-Altmetrics,bi-bar-chart-steps,/tutorials/altmetrics,#285F9F,short description about Altmetrics
-Surveys,bi-person-circle,/tutorials/surveys,#155F85,short description about Surveys
-Interviews & Focus Groups,bi-people-fill,/tutorials/interviews-focusgroups,#5A6060, short description about Interviews & Focus Groups
-Web Analytics,bi-graph-up-arrow,/tutorials/web-analytics,#0034AC,short description about Web Analytics
+Alert Services,bi-bell-fill,/alert-services/,#009AE5,Alert services notify you (by email or app notifications) when they detect your keywords and links shared on websites and social media. 
+Altmetrics,bi-facebook,/altmetrics,#285F9F,"These tools measure the amount of attention scholarly items are getting in social media, blog posts, social bookmarking services, and more."
+Citation Analysis,bi-journals,/citation-analysis,#028B35,short description
+Reverse Image Search,bi-search,/reverse-image-search/,#1E6933,short description about Reverse Image Search tutorial
+Surveys,bi-chat-dots,/surveys,#155F85,short description about Surveys
+Interviews & Focus Groups,bi-people-fill,/interviews-focusgroups,#5A6060, short description about Interviews & Focus Groups
+Web Analytics,bi-pie-chart,/web-analytics,#0034AC,short description about Web Analytics
